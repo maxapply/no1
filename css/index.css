@@ -69,6 +69,10 @@ a {
   height: 1.013333rem;
   vertical-align: middle;
 }
+.content .con_hd h4 img {
+  margin-right: 0.8rem;
+  box-sizing: border-box;
+}
 .content .con_hd a {
   font-size: 0.586667rem;
   color: #999;
@@ -121,6 +125,15 @@ a {
   transform: scale(1);
   z-index: 999;
   opacity: 1;
+}
+.get_job_focus .swiper-button-next,
+.get_job_focus .swiper-button-prev {
+  outline: none;
+}
+.get_job_focus .swiper-button-next:after,
+.get_job_focus .swiper-button-prev:after {
+  font-size: 1.066667rem;
+  color: #333;
 }
 .study_con {
   margin-bottom: 2.933333rem;
