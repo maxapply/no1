@@ -1,0 +1,161 @@
+body {
+  min-width: 350px;
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #f2f4f7;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  font-family: "Microsoft Yahei";
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+.header {
+  width: 100%;
+  height: 2.133333rem;
+  background-color: #26b8f3;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.header a {
+  position: absolute;
+  line-height: 2.133333rem;
+  font-size: 0.693333rem;
+  color: #fff;
+  display: inline-block;
+  float: left;
+  z-index: 9;
+}
+.header p {
+  line-height: 2.133333rem;
+  text-align: center;
+  font-size: 0.933333rem;
+  color: #fff;
+}
+.title {
+  width: 100%;
+  background-image: linear-gradient(#7FFFd4, #5dc794);
+  height: 13rem;
+  padding: 0.533333rem 0.8rem;
+  margin-bottom: 1.333333rem;
+}
+.title .title_box {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+.title .title_box img {
+  display: block;
+  width: 8rem;
+  margin: 0.533333rem auto;
+}
+.title .title_box h5 {
+  font-size: 0.933333rem;
+  text-align: center;
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+  font-family: 'Microsoft YaHei';
+  color: #666;
+}
+.title .title_box p {
+  text-align: center;
+  font-size: 0.8rem;
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+  font-family: 'Microsoft YaHei';
+  color: #666;
+}
+.section {
+  width: 100%;
+  background-color: #fff;
+  padding: 0.666667rem 0.533333rem;
+  box-sizing: border-box;
+  box-shadow: 0 0 0.8rem #241d20;
+}
+.section span {
+  float: left;
+  display: inline-block;
+  width: 0.266667rem;
+  height: 1.066667rem;
+  background-color: #5dc794;
+}
+.section h3 {
+  float: left;
+  font-size: 1.066667rem;
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+  margin-left: 0.533333rem;
+  font-weight: 400;
+  color: #333;
+  font-family: 'Microsoft YaHei';
+}
+.section ul li {
+  font-size: 0.666667rem;
+  color: #666;
+  line-height: 1rem;
+  font-family: 'Microsoft YaHei';
+}
+.section h6 {
+  font-size: 0.666667rem;
+  color: #333;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  font-family: 'Microsoft YaHei';
+}
+.section p {
+  font-size: 0.666667rem;
+  text-indent: 2em;
+  color: #666;
+  line-height: 1rem;
+  font-family: 'Microsoft YaHei';
+}
+.footer_box {
+  width: 100%;
+  background-color: #5dc794;
+  margin-top: 1.066667rem;
+  margin-bottom: 3.3rem;
+  padding: 0.8rem 0;
+  box-sizing: border-box;
+}
+.footer_box p {
+  font-size: 0.666667rem;
+  text-align: center;
+  color: #fff;
+  line-height: 1.5rem;
+}
+.footer {
+  width: 100%;
+  height: 2.933333rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  background-color: #fff;
+  padding-top: 0.533333rem;
+  border-top: 1px solid #ccc;
+}
+.footer .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .item img {
+  width: 1.04rem;
+  height: 1.093333rem;
+  margin-bottom: 0.266667rem;
+}
+.footer .item p {
+  font-size: 0.586667rem;
+  color: #666;
+}

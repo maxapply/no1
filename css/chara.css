@@ -66,6 +66,7 @@ a {
 .section {
   padding: 0.533333rem;
   box-sizing: border-box;
+  margin-bottom: 3.1rem;
 }
 .section .content ul {
   list-style: none;

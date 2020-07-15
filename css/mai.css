@@ -67,6 +67,7 @@ a {
   width: 100%;
   padding: 0.4rem;
   box-sizing: border-box;
+  margin-bottom: 3.3rem;
 }
 .form .form_box {
   background-color: #fff;
@@ -88,13 +89,18 @@ a {
   margin-bottom: 0.8rem;
 }
 .form .form_box ul li select {
-  max-width: 13.333333rem;
+  max-width: 14rem;
   min-width: 10rem;
   height: 1.6rem;
   line-height: 1.6rem;
   padding: 0 3%;
   text-align: center;
   text-align-last: center;
+}
+.form .form_box ul .date {
+  max-width: 20rem;
+  min-width: 13rem;
+  height: 2.133333rem;
 }
 .form .form_box button {
   width: 100%;
