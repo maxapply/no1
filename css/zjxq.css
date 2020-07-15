@@ -1,6 +1,6 @@
 .title {
   width: 100%;
-  background-image: linear-gradient(#7FFFd4, #5dc794);
+  background-image: linear-gradient(#BE77ff, #8600ff);
   height: 13rem;
   padding: 0.533333rem 0.8rem;
   margin-bottom: 1.333333rem;
@@ -45,7 +45,7 @@
   display: inline-block;
   width: 0.266667rem;
   height: 1.066667rem;
-  background-color: #5dc794;
+  background-image: linear-gradient(#BE77ff, #8600ff);
 }
 .section h3 {
   float: left;
@@ -79,7 +79,7 @@
 }
 .footer_box {
   width: 100%;
-  background-color: #5dc794;
+  background-image: linear-gradient(#BE77ff, #8600ff);
   margin-top: 1.066667rem;
   margin-bottom: 3.3rem;
   padding: 0.8rem 0;

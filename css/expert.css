@@ -1,17 +1,9 @@
 .section {
   padding: 0.4rem;
 }
-<<<<<<< HEAD
 .section ul {
   list-style: none;
 }
-=======
-
-.section ul {
-  list-style: none;
-}
-
->>>>>>> 9fa12cb90b87226622d776674e92d970d4d7ec01
 .section ul li {
   width: 100%;
   box-shadow: inset 0px 15px 15px -15px #000, inset 0px -15px 15px -15px #000;
@@ -20,61 +12,32 @@
   padding: 0.533333rem;
   margin-bottom: 0.533333rem;
 }
-<<<<<<< HEAD
 .section ul li:last-child {
   margin-bottom: 3.3rem;
 }
-=======
-
-.section ul li:last-child {
-  margin-bottom: 3.3rem;
-}
-
->>>>>>> 9fa12cb90b87226622d776674e92d970d4d7ec01
 .section ul li .img {
   display: inline-block;
   width: 5rem;
   float: left;
   margin-right: 0.4rem;
 }
-<<<<<<< HEAD
 .section ul li h4 {
   font-size: 0.85rem;
   color: #000;
   margin-bottom: 0.3125rem;
 }
-=======
-
-.section ul li h4 {
-  font-size: 0.85rem;
-  color: #000;
-}
-
->>>>>>> 9fa12cb90b87226622d776674e92d970d4d7ec01
 .section ul li span {
   font-size: 0.75rem;
   color: #666;
   margin-left: 0.533333rem;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 9fa12cb90b87226622d776674e92d970d4d7ec01
 .section ul li p {
   line-height: 0.933333rem;
   font-size: 0.75rem;
   text-indent: 2em;
   color: #666;
 }
-<<<<<<< HEAD
 .section ul li p span {
   font-size: 0.693333rem;
   color: #FF4400;
 }
-=======
-
-.section ul li p span {
-  font-size: 0.693333rem;
-  color: #FF4400;
-}
->>>>>>> 9fa12cb90b87226622d776674e92d970d4d7ec01

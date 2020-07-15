@@ -21,16 +21,12 @@ a {
   padding-bottom: 1.146667rem;
 }
 .header {
-  height: 2.133333rem;
-  line-height: 2.666667rem;
-  border-bottom: 1px solid #EAEAEA;
-  text-align: center;
-  font-size: 0.933333rem;
-  color: #1c1c1c;
+  border-bottom: 2px solid #EAEAEA;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 .header img {
-  width: 80%;
-  height: 2rem;
+  max-width: 15.2083rem;
   float: left;
 }
 .header .photo {
