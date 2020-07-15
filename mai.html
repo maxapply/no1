@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>快速预约</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/mai.css">
+
+</head>
+
+<body style="overflow:hidden;overflow-y:auto;">
+  <!-- 头部 -->
+  <header class="header">
+    <a href="./index.html">
+      < 返回 </a> <p>快速预约</p>
+  </header>
+
+  <!-- 头部轮播图 -->
+  <div class="title">
+    <!--  -->
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./images/title.png" alt=""></div>
+        <div class="swiper-slide"><img src="./images/title_01.png" alt=""></div>
+        <div class="swiper-slide"><img src="./images/title_02.png" alt=""></div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+
+
+  <!-- 预约列表 -->
+  <section class="form">
+    <div class="form_box">
+      <ul>
+        <li> 姓名: &nbsp;&nbsp;<input type="text" maxlength="8" placeholder="请输入您的姓名" /></li>
+        <li>称谓:&nbsp;&nbsp;
+          <input type="radio" name="shyfsz" style="zoom:1.5;" value="先生" checked>&nbsp;&nbsp;先生</input>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" name="shyfsz" style="zoom:1.5;" value="女士">&nbsp;&nbsp;女士</input>
+        </li>
+        <li> 手机号: &nbsp;&nbsp;<input type="text" maxlength="8" placeholder="请输入您的手机号" /></li>
+        <li> 预约医院: &nbsp;&nbsp;
+          <select>
+            <option value="选择门诊地点">选择门诊地点</option>
+            <option value="医院1">医院1</option>
+            <option value="医院2">医院2</option>
+            <option value="医院3">医院3</option>
+          </select>
+        </li>
+        <li> 就诊项目: &nbsp;&nbsp;
+          <select>
+            <option value="选择就诊项目">选择就诊项目</option>
+            <option value="种植牙">种植牙</option>
+            <option value="牙齿矫正">牙齿矫正</option>
+            <option value="牙齿不齐">牙齿不齐</option>
+            <option value="烤齿牙">烤齿牙</option>
+            <option value="牙齿缺失">牙齿缺失</option>
+            <option value="牙痛">牙痛</option>
+            <option value="补牙">补牙</option>
+            <option value="拔牙">拔牙</option>
+            <option value="治疗">治疗</option>
+            <option value="洗牙">洗牙</option>
+            <option value="智齿">智齿</option>
+            <option value="复诊">复诊</option>
+          </select>
+        </li>
+        <li> 预约时间: &nbsp;&nbsp;
+          <input class="date" type="date">
+        </li>
+      </ul>
+      <button type="button"><a href="#">预约</a></button>
+    </div>
+
+  </section>
+
+
+  <!-- 底部模块 -->
+  <footer class="footer">
+    <a href="./index.html" class="item">
+      <img src="./icons/home.png" alt="">
+      <p>首页</p>
+    </a>
+    <a href="./mai.html" class="item">
+      <img src="./icons/ms.png" alt="">
+      <p>快速预约</p>
+    </a>
+    <a href="./chara.html" class="item">
+      <img src="./icons/net.png" alt="">
+      <p>医疗特色</p>
+    </a>
+    <a href="./consult.html" class="item">
+      <img src="./icons/user.png" alt="">
+      <p>在线咨询</p>
+    </a>
+  </footer>
+
+
+  <script src="./js/flexible.js"></script>
+  <script src="./js/swiper.min.js"></script>
+
+
+  <script>
+    /*
+     *头部模块轮播图
+     */
+    (function () {
+      var swiper = new Swiper('.swiper-container', {
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    })()
+  </script>
+
+
+</body>
+
+</html>
