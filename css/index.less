@@ -5,6 +5,11 @@ body {
   background-color: #f2f4f7;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -24,12 +29,53 @@ a {
 
 // 头部区域
 .header {
-  // height: 2.133333rem;
+  height: 2.133333rem;
   line-height: 2.666667rem;
   border-bottom: 1px solid #EAEAEA;
   text-align: center;
   font-size: .933333rem;
   color: #1c1c1c;
+
+  img {
+    width: 80%;
+    height: 2rem;
+    float: left;
+  }
+
+  .photo {
+    float: right;
+    width: 2.666667rem;
+
+  }
+}
+
+// banner 轮播
+.banner {
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
 }
 
 // 导航栏部分
@@ -59,7 +105,7 @@ a {
     }
 
     &:nth-child(-n+3) {
-      margin-bottom: 1.653333rem;
+      margin-bottom: 1rem;
     }
   }
 
@@ -176,9 +222,6 @@ a {
   }
 }
 
-.study_con {
-  margin-bottom: 2.933333rem;
-}
 
 // 先进设备模块
 .study {
@@ -218,6 +261,91 @@ a {
 
   }
 }
+
+// 联系方式
+.contact {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 0.266667rem;
+  padding: .533333rem 1rem;
+  box-sizing: border-box;
+  margin-bottom: 3.3rem;
+
+
+  .footer_logo {
+    float: left;
+    width: 4rem;
+    height: 6rem;
+    background-color: #ccc;
+    margin-right: 1.333333rem;
+  }
+
+  .footer_photo {
+    overflow: hidden;
+    margin-bottom: .8rem;
+
+    .box {
+      width: 100%;
+      padding: 0.3rem;
+      box-sizing: border-box;
+
+      img {
+        width: 1.8rem;
+        float: left;
+        margin-right: .266667rem;
+        margin-top: .266667rem;
+      }
+
+      .mf {
+        float: left;
+        font-size: 0.693333rem;
+        margin-bottom: .266667rem;
+        font-weight: 400;
+      }
+
+      span {
+        float: left;
+        font-size: 1rem;
+        font-weight: 400;
+      }
+
+      p {
+        font-size: 0.693333rem;
+        margin-bottom: .266667rem;
+      }
+
+    }
+
+
+
+
+
+  }
+
+  .p {
+    font-size: .533333rem;
+    text-align: center;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 底部模块
 .footer {

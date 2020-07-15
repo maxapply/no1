@@ -18,39 +18,64 @@
     <!-- 头部区域 -->
     <header class="header">
       <img src="./icons/logo.png" alt="">
+      <a href="#"><img src="./icons/telephone.png" class="photo" alt=""></a>
     </header>
-    <!-- 导航栏部分 -->
-    <nav class="nav">
-      <a href="./mai.html" class="item">
-        <img src="./icons/icon1.png" alt="">
-        <span>预约挂号</span>
-      </a>
-      <a href="./expert.html" class="item">
-        <img src="./icons/icon2.png" alt="">
-        <span>医师团队</span>
-      </a>
-      <a href="./zlxm.html" class="item">
-        <img src="./icons/icon3.png" alt="">
-        <span>诊疗项目</span>
-      </a>
-      <a href="./address.html" class="item">
-        <img src="./icons/icon4.png" alt="">
-        <span>来院路线</span>
-      </a>
-      <a href="./shfw.html" class="item">
-        <img src="./icons/icon5.png" alt="">
-        <span>社会服务</span>
-      </a>
-      <a href="./consult.html" class="item">
-        <img src="./icons/icon6.png" alt="">
-        <span>咨询中心</span>
-      </a>
-    </nav>
-    <!-- go模块 -->
-    <section class="go">
-      <!-- <img src="./images/go.png" alt=""> -->
-      <img src="./images/banner.png" alt="">
-    </section>
+
+    <div class="banner">
+      <!-- Swiper -->
+      <div class="swiper-container banner_sw">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/timg_03.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/timg_03.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/timg_03.jpg" alt="">
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+
+
+
+
+      <!-- 导航栏部分 -->
+      <nav class="nav">
+        <a href="./mai.html" class="item">
+          <img src="./icons/icon1.png" alt="">
+          <span>预约挂号</span>
+        </a>
+        <a href="./ynjj.html" class="item">
+          <img src="./icons/icon2.png" alt="">
+          <span>院内简介</span>
+        </a>
+
+        <a href="./zlxm.html" class="item">
+          <img src="./icons/icon3.png" alt="">
+          <span>诊疗项目</span>
+        </a>
+        <a href="./expert.html" class="item">
+          <img src="./icons/icon5.png" alt="">
+          <span>医师团队</span>
+        </a>
+        <a href="./address.html" class="item">
+          <img src="./icons/icon4.png" alt="">
+          <span>来院路线</span>
+        </a>
+
+        <a href="./consult.html" class="item">
+          <img src="./icons/icon6.png" alt="">
+          <span>咨询中心</span>
+        </a>
+      </nav>
+      <!-- go模块 -->
+      <section class="go">
+        <!-- <img src="./images/go.png" alt=""> -->
+        <img src="./images/banner.png" alt="">
+      </section>
 
   </section>
 
@@ -113,22 +138,18 @@
           <div class="swiper-slide">
             <a href="#"><img src="./images/pic1.png" alt=""></a>
             <h5>水激光无痛治疗仪</h5>
-            <p>[查看详情]</p>
           </div>
           <div class="swiper-slide">
             <a href="#"><img src="./images/pic2.png" alt=""></a>
             <h5>beyond冷光美白仪</h5>
-            <p>[查看详情]</p>
           </div>
           <div class="swiper-slide">
             <a href="#"><img src="./images/pic1.png" alt=""></a>
             <h5>瑞典诺贝尔种植牙技术</h5>
-            <p>[查看详情]</p>
           </div>
           <div class="swiper-slide">
             <a href="#"><img src="./images/pic2.png" alt=""></a>
             <h5>德国西诺德牙椅</h5>
-            <p>[查看详情]</p>
           </div>
 
         </div>
@@ -138,6 +159,34 @@
 
     </div>
   </section>
+
+  <!-- 联系方式 -->
+  <div class="contact">
+    <div class="footer_logo"></div>
+    <div class="footer_photo">
+      <div class="box">
+        <img src="./icons/电话.png" alt="">
+        <h5 class="mf">免费咨询电话</h5>
+        <span>010-80111909</span>
+      </div>
+    </div>
+    <div class="footer_photo">
+      <div class="box">
+        <img src="./icons/address.png" alt="">
+        <p>北京市昌平区南环中路24号</p>
+        <p>优贝口腔(法院东行100米)</p>
+      </div>
+    </div>
+
+    <p class="p">京ICP备17039954号-1</p>
+
+  </div>
+
+
+
+
+
+
 
   <!-- 底部模块 -->
   <footer class="footer">
@@ -165,6 +214,20 @@
 
   <!-- Initialize Swiper -->
   <script>
+    var swiper = new Swiper('.banner_sw', {
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+
+
+
+
     (function () {
       var swiper = new Swiper('.get_job_fo', {
         slidesPerView: 2,

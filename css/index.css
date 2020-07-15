@@ -4,6 +4,10 @@ body {
   margin: 0 auto;
   background-color: #f2f4f7;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 a {
   text-decoration: none;
 }
@@ -17,11 +21,43 @@ a {
   padding-bottom: 1.146667rem;
 }
 .header {
+  height: 2.133333rem;
   line-height: 2.666667rem;
   border-bottom: 1px solid #EAEAEA;
   text-align: center;
   font-size: 0.933333rem;
   color: #1c1c1c;
+}
+.header img {
+  width: 80%;
+  height: 2rem;
+  float: left;
+}
+.header .photo {
+  float: right;
+  width: 2.666667rem;
+}
+.banner .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.banner .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 .nav {
   display: flex;
@@ -43,7 +79,7 @@ a {
   color: #707070;
 }
 .nav .item:nth-child(-n+3) {
-  margin-bottom: 1.653333rem;
+  margin-bottom: 1rem;
 }
 .content {
   margin-top: 0.266667rem;
@@ -134,9 +170,6 @@ a {
   font-size: 1.066667rem;
   color: #333;
 }
-.study_con {
-  margin-bottom: 2.933333rem;
-}
 .study .study_fo {
   padding: 0.266667rem;
 }
@@ -162,6 +195,55 @@ a {
   padding: 0 0.266667rem;
   font-size: 0.693333rem;
   color: #FF4400;
+}
+.contact {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 0.266667rem;
+  padding: 0.533333rem 1rem;
+  box-sizing: border-box;
+  margin-bottom: 3.3rem;
+}
+.contact .footer_logo {
+  float: left;
+  width: 4rem;
+  height: 6rem;
+  background-color: #ccc;
+  margin-right: 1.333333rem;
+}
+.contact .footer_photo {
+  overflow: hidden;
+  margin-bottom: 0.8rem;
+}
+.contact .footer_photo .box {
+  width: 100%;
+  padding: 0.3rem;
+  box-sizing: border-box;
+}
+.contact .footer_photo .box img {
+  width: 1.8rem;
+  float: left;
+  margin-right: 0.266667rem;
+  margin-top: 0.266667rem;
+}
+.contact .footer_photo .box .mf {
+  float: left;
+  font-size: 0.693333rem;
+  margin-bottom: 0.266667rem;
+  font-weight: 400;
+}
+.contact .footer_photo .box span {
+  float: left;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.contact .footer_photo .box p {
+  font-size: 0.693333rem;
+  margin-bottom: 0.266667rem;
+}
+.contact .p {
+  font-size: 0.533333rem;
+  text-align: center;
 }
 .footer {
   width: 100%;
