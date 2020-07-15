@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 // 头部轮播图
 .title {
   padding: 0.533333rem;
@@ -83,7 +88,7 @@
                 border-radius: 50%;
                 text-align: center;
                 line-height: 0.85rem;
-                font-size: 0.65rem;
+                font-size: 0.85rem;
                 color: #fff;
                 border: 0.1rem solid #ddd;
                 background-color: #fff;
@@ -92,7 +97,12 @@
             }
           &:checked:after {
               /* 选中之后的样子 */
+              border: 0;
               content: "L";
+              display: block;
+              height: 0.85rem;
+              line-height: 0.85rem;
+              text-align: center;
               transform: matrix(-0.766044, -0.642788, -0.642788, 0.766044, 0, 0);
               /* 2D变换旋转，还有平移和缩放，平时旋转用rotate，这个写法是比较复杂一点的写法，
 括号里面的六个值来得矩阵，实现2D变换，更详细的大家去百度查。 */
