@@ -52,6 +52,44 @@
   border-bottom: 1px solid #ccc;
   margin-bottom: 0.8rem;
 }
+.form .form_box ul li .isOk {
+  vertical-align: middle;
+  zoom: 1.5;
+  -webkit-appearance: none;
+  /* 清除原有的样式 */
+  background-color: transparent;
+  border: 0;
+  outline: 0 !important;
+  /* 去掉点击后外面可能会出现的蓝框 */
+  line-height: 20px;
+  color: #d8d8d8;
+}
+.form .form_box ul li .isOk:after {
+  /* //在input的内容之后插入新内容 */
+  content: "";
+  display: block;
+  width: 0.5208rem;
+  height: 0.5208rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 0.1458rem;
+  font-size: 0.45rem;
+  color: #fff;
+  border: 0.1rem solid #ddd;
+  background-color: #fff;
+  box-sizing: border-box;
+  /* 规定两个并排的带边框的框 */
+}
+.form .form_box ul li .isOk:checked:after {
+  /* 选中之后的样子 */
+  content: "L";
+  transform: matrix(-0.766044, -0.642788, -0.642788, 0.766044, 0, 0);
+  /* 2D变换旋转，还有平移和缩放，平时旋转用rotate，这个写法是比较复杂一点的写法，
+括号里面的六个值来得矩阵，实现2D变换，更详细的大家去百度查。 */
+  -webkit-transform: matrix(-0.766044, -0.642788, -0.642788, 0.766044, 0, 0);
+  border-color: #099414;
+  background-color: #099414;
+}
 .form .form_box ul li select {
   max-width: 14rem;
   min-width: 10rem;
