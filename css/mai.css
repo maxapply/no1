@@ -95,6 +95,7 @@
   height: 0.75rem;
   line-height: 0.75rem;
   text-align: center;
+  font-family: 'Microsoft YaHei';
   transform: matrix(-0.766044, -0.642788, -0.642788, 0.766044, 0, 0);
   /* 2D变换旋转，还有平移和缩放，平时旋转用rotate，这个写法是比较复杂一点的写法，
 括号里面的六个值来得矩阵，实现2D变换，更详细的大家去百度查。 */
