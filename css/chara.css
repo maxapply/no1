@@ -1,47 +1,13 @@
-body {
-  min-width: 350px;
-  max-width: 750px;
-  margin: 0 auto;
-  background-color: #f2f4f7;
-}
-a {
-  text-decoration: none;
-}
-@media screen and (min-width: 750px) {
-  html {
-    font-size: 37.5px !important;
-  }
-}
-.header {
-  width: 100%;
-  height: 2.133333rem;
-  background-color: #26b8f3;
-  padding: 0 15px;
-  box-sizing: border-box;
-}
-.header a {
-  position: absolute;
-  line-height: 2.133333rem;
-  font-size: 0.693333rem;
-  color: #fff;
-  display: inline-block;
-  float: left;
-  z-index: 9;
-}
-.header p {
-  line-height: 2.133333rem;
-  text-align: center;
-  font-size: 0.933333rem;
-  color: #fff;
-}
 .title {
   padding: 0.533333rem;
 }
+
 .title .swiper-container {
   width: 100%;
   max-height: 5.333333rem;
   border-radius: 0.533333rem;
 }
+
 .title .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -60,20 +26,24 @@ a {
   -webkit-align-items: center;
   align-items: center;
 }
+
 .title .swiper-slide img {
   max-height: 5.333333rem;
 }
+
 .section {
   padding: 0.533333rem;
   box-sizing: border-box;
   margin-bottom: 3.1rem;
 }
+
 .section .content ul {
   list-style: none;
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 2.933333rem;
 }
+
 .section .content ul li {
   width: 100%;
   padding: 0.533333rem 0.4rem;
@@ -83,6 +53,7 @@ a {
   border-radius: 0.266667rem;
   box-shadow: 0rem 0.5rem 0.5rem #ccc;
 }
+
 .section .content ul li h3 {
   height: 1.6rem;
   line-height: 1.6rem;
@@ -92,6 +63,7 @@ a {
   border-bottom: 1px solid #ccc;
   color: #636b6f;
 }
+
 .section .content ul li p {
   display: inline-block;
   height: 1.066667rem;
@@ -100,33 +72,7 @@ a {
   text-indent: 2em;
   color: #4b4b4b;
 }
+
 .section .content ul li p span {
   color: #FF4400;
-}
-.footer {
-  width: 100%;
-  height: 2.933333rem;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  z-index: 999;
-  display: flex;
-  background-color: #fff;
-  padding-top: 0.533333rem;
-  border-top: 1px solid #ccc;
-}
-.footer .item {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.footer .item img {
-  width: 1.04rem;
-  height: 1.093333rem;
-  margin-bottom: 0.266667rem;
-}
-.footer .item p {
-  font-size: 0.586667rem;
-  color: #666;
 }

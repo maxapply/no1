@@ -4,72 +4,52 @@ body {
   margin: 0 auto;
   background-color: #f2f4f7;
 }
-
 a {
   text-decoration: none;
 }
-
-/* 约束屏幕大于750px html 字体就不变化了  */
 @media screen and (min-width: 750px) {
   html {
     font-size: 37.5px !important;
   }
 }
-
-/* 头部模块 */
 .wrap {
   background-color: #fff;
   padding-bottom: 1.146667rem;
 }
-
-/* 头部区域 */
 .header {
-  height: 2.133333rem;
   line-height: 2.666667rem;
   border-bottom: 1px solid #EAEAEA;
   text-align: center;
   font-size: 0.933333rem;
   color: #1c1c1c;
 }
-
-/* 导航栏部分 */
 .nav {
   display: flex;
-  /* 显示不开 强制换行 */
   flex-wrap: wrap;
   padding: 1.2rem 0 1.6rem 0;
 }
-
 .nav .item {
   display: flex;
   width: 33.3%;
-  /*  纵向显示 */
   flex-direction: column;
-  /* 居中对齐 */
   align-items: center;
 }
-
 .nav .item img {
   width: 3.706667rem;
   height: 3.706667rem;
 }
-
 .nav .item span {
   font-size: 0.666667rem;
   color: #707070;
 }
-
 .nav .item:nth-child(-n+3) {
   margin-bottom: 1.653333rem;
 }
-
-/* 专家团队模块 */
 .content {
   margin-top: 0.266667rem;
   padding: 1.066667rem 0.64rem;
   background-color: #fff;
 }
-
 .content .con_hd {
   height: 1.013333rem;
   display: flex;
@@ -77,41 +57,32 @@ a {
   line-height: 1.013333rem;
   margin-bottom: 0.906667rem;
 }
-
 .content .con_hd h4 {
   margin: 0;
   font-size: 0.746667rem;
   color: #333;
 }
-
 .content .con_hd h4 .icon {
   display: inline-block;
   width: 1.013333rem;
   height: 1.013333rem;
-  /* 让后面的文字垂直居中 */
   vertical-align: middle;
 }
-
 .content .con_hd h4 img {
   margin-right: 0.8rem;
   box-sizing: border-box;
 }
-
 .content .con_hd a {
   font-size: 0.586667rem;
   color: #999;
 }
-
-/* 旋转木马轮播图 */
 .get_job_focus {
   position: relative;
 }
-
 .get_job_focus .swiper-container {
   width: 14.4rem;
   height: 100%;
 }
-
 .get_job_focus .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -134,56 +105,45 @@ a {
   transform: scale(0.8);
   opacity: 0.4;
 }
-
 .get_job_focus .swiper-slide a {
   width: 9.013333rem;
   height: 10.026667rem;
 }
-
 .get_job_focus .swiper-slide a img {
   width: 100%;
   height: 100%;
 }
-
 .get_job_focus .swiper-slide p {
   width: 9.013333rem;
   font-size: 0.666667rem;
   margin-top: 0.906667rem;
   color: #333;
 }
-
 .get_job_focus .swiper-slide-active,
 .get_job_focus .swiper-slide-duplicate-active {
   transform: scale(1);
   z-index: 999;
   opacity: 1;
 }
-
 .get_job_focus .swiper-button-next,
 .get_job_focus .swiper-button-prev {
   outline: none;
 }
-
 .get_job_focus .swiper-button-next:after,
 .get_job_focus .swiper-button-prev:after {
   font-size: 1.066667rem;
   color: #333;
 }
-
 .study_con {
   margin-bottom: 2.933333rem;
 }
-
-/* 先进设备模块 */
 .study .study_fo {
   padding: 0.266667rem;
 }
-
 .study .swiper-container {
   width: 100%;
   height: 100%;
 }
-
 .study .swiper-slide {
   font-size: 18px;
   background: #fff;
@@ -192,21 +152,17 @@ a {
   border-radius: 10px;
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
 }
-
 .study .swiper-slide h5 {
   padding: 0 0.266667rem;
   font-size: 0.693333rem;
   margin: 0.533333rem 0;
   font-weight: 400;
 }
-
 .study .swiper-slide p {
   padding: 0 0.266667rem;
   font-size: 0.693333rem;
   color: #FF4400;
 }
-
-/* 底部模块 */
 .footer {
   width: 100%;
   height: 2.933333rem;
@@ -219,20 +175,17 @@ a {
   padding-top: 0.533333rem;
   border-top: 1px solid #ccc;
 }
-
 .footer .item {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .footer .item img {
   width: 1.04rem;
   height: 1.093333rem;
   margin-bottom: 0.266667rem;
 }
-
 .footer .item p {
   font-size: 0.586667rem;
   color: #666;
