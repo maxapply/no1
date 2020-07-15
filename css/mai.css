@@ -54,26 +54,25 @@
 }
 .form .form_box ul li .isOk {
   vertical-align: middle;
-  zoom: 2;
   -webkit-appearance: none;
   /* 清除原有的样式 */
   background-color: transparent;
   border: 0;
   outline: 0 !important;
   /* 去掉点击后外面可能会出现的蓝框 */
-  line-height: 20px;
+  line-height: 0.2083rem;
   color: #d8d8d8;
 }
 .form .form_box ul li .isOk:after {
   /* //在input的内容之后插入新内容 */
   content: "";
   display: block;
-  width: 0.5208rem;
-  height: 0.5208rem;
+  width: 0.85rem;
+  height: 0.85rem;
   border-radius: 50%;
   text-align: center;
-  line-height: 0.1458rem;
-  font-size: 0.45rem;
+  line-height: 0.85rem;
+  font-size: 0.65rem;
   color: #fff;
   border: 0.1rem solid #ddd;
   background-color: #fff;
