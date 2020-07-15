@@ -75,11 +75,11 @@
   /* //在input的内容之后插入新内容 */
   content: "";
   display: block;
-  width: 0.85rem;
-  height: 0.85rem;
+  width: 0.75rem;
+  height: 0.75rem;
   border-radius: 50%;
   text-align: center;
-  line-height: 0.85rem;
+  line-height: 0.75rem;
   font-size: 0.85rem;
   color: #fff;
   border: 0.1rem solid #ddd;
@@ -92,8 +92,8 @@
   border: 0;
   content: "L";
   display: block;
-  height: 0.85rem;
-  line-height: 0.85rem;
+  height: 0.75rem;
+  line-height: 0.75rem;
   text-align: center;
   transform: matrix(-0.766044, -0.642788, -0.642788, 0.766044, 0, 0);
   /* 2D变换旋转，还有平移和缩放，平时旋转用rotate，这个写法是比较复杂一点的写法，
