@@ -63,6 +63,10 @@
   line-height: 0.2083rem;
   color: #d8d8d8;
 }
+.form .form_box ul li .isOk span {
+  display: inline-block;
+  vertical-align: middle;
+}
 .form .form_box ul li .isOk:after {
   /* //在input的内容之后插入新内容 */
   content: "";
